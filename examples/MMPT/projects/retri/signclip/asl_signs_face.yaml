@@ -2,7 +2,7 @@ dataset:
   max_video_len: 128
   max_len: 96
   video_processor: ASLSignPoseProcessor
-  bert_name: bert-base-cased
+  bert_name: pretrained/bert-base-cased
   meta_processor: ASLSignMetaProcessor
   text_processor: TextProcessor
   test_path: data/asl_signs/test.txt
